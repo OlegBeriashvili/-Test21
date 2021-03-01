@@ -1,0 +1,2490 @@
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils enableDebug
+FINE: client version: Collaborator Enterprise version 13.1.13100.88
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils enableDebug
+FINE: Parsing arguments: [--debug, addgitdiffs, new, test, master]
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logVmMemory
+FINE: VM Max Memory: 4276092928
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logVmMemory
+FINE: VM Current Memory: 268435456
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logSystemProperties
+FINE: Logging System Properties
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.desktop:  windows
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   awt.toolkit:  sun.awt.windows.WToolkit
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.specification.version:  11
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   install4j.launcherId:  2
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.cpu.isalist:  amd64
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.jnu.encoding:  Cp1252
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.class.path:  C:\Program Files\Collaborator Client3\.install4j\i4jruntime.jar;C:\Program Files\Collaborator Client3\.\lib\activation-1.1.1.jar;C:\Program Files\Collaborator Client3\.\lib\collab-cmdline-13.1.13100.jar;C:\Program Files\Collaborator Client3\.\lib\collab-code-analysis-13.1.13100.jar;C:\Program Files\Collaborator Client3\.\lib\commons-cli-2.0.553540.jar;C:\Program Files\Collaborator Client3\.\lib\gwt-user-2.8.2.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\annotation-indexer-1.12.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\asm-5.2.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\asm-all-5.0.4.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\bndlib-2.3.0.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\bridge-method-annotation-1.14.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\cdi-api-2.0.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\collab-client-common-13.1.13100.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\collab-code-analysis-13.1.13100.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\collab-common-13.1.13100.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\collab-datamodel-13.1.13100.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\collab-scm-13.1.13100.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\collab-service-13.1.13100.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\collaborator-common-13.1.13100.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\collaborator-json-api-13.1.13100.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\com.ibm.team.filesystem.client-3.2.900.v20170426_1705.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\com.ibm.team.filesystem.common-3.2.900.v20170417_1239.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\com.ibm.team.foundation.common-1.3.4000.v20170324_0113.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\com.ibm.team.process.client-1.3.3000.v20170407_1725.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\com.ibm.team.process.common-1.3.4000.v20170429_0036.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\com.ibm.team.repository.client-1.3.3000.v20170317_2133.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\com.ibm.team.repository.common-1.4.4000.v20170503_1641.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\com.ibm.team.scm.client-3.2.900.v20170424_1700.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\com.ibm.team.scm.common-3.2.900.v20170424_1642.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\com.ibm.team.workitem.client-3.1.1600.v20170112_0127.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\com.ibm.team.workitem.common-3.2.800.v20170420_1657.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\commons-beanutils-1.9.2.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\commons-codec-1.11.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\commons-collections-3.2.1.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\commons-collections4-4.0.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\commons-io-1.4.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\commons-lang-2.6.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\commons-lang3-3.3.2.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\commons-logging-1.2.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\cxf-core-3.1.18.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\cxf-rt-bindings-soap-3.1.18.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\cxf-rt-bindings-xml-3.1.18.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\cxf-rt-databinding-jaxb-3.1.18.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\cxf-rt-frontend-jaxws-3.1.18.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\cxf-rt-frontend-simple-3.1.18.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\cxf-rt-transports-http-3.1.18.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\cxf-rt-ws-addr-3.1.18.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\cxf-rt-ws-policy-3.1.18.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\cxf-rt-wsdl-3.1.18.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\geronimo-ws-metadata_2.0_spec-1.1.3.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\github-api-1.73.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\groovy-all-2.3.2.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\guava-20.0.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\gwt-servlet-2.8.2.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\httpclient-4.5.8.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\httpcore-4.4.11.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\httpmime-4.5.8.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\ical4j-2.0.0.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\jackson-annotations-2.9.0.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\jackson-core-2.9.6.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\jackson-databind-2.9.6.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\jackson-module-mrbean-2.9.6.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\java-gitlab-api-4.0.1.smartbear.4.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\javassist-3.18.1-GA.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\javax.activation-api-1.2.0.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\javax.annotation-api-1.3.2.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\javax.el-api-3.0.0.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\javax.inject-1.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\javax.interceptor-api-1.2.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\javax.xml.soap-api-1.4.0.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\jaxb-api-2.3.1.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\jaxb-core-2.2.11.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\jaxb-impl-2.2.11.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\jaxws-api-2.3.1.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\json-20090211.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\json-simple-1.1.1.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\jsr173-1.0.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\jsr305-3.0.0.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\junit-3.8.1.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\jzlib-1.1.2.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\markdownj-core-0.4.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\mixpanel-java-1.4.4.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\mksapi-jar-4.13.5479.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\msgpack-0.6.11.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\neethi-3.1.1.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\okhttp-2.7.5.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\okhttp-urlconnection-2.7.5.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\okio-1.6.0.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\org.eclipse.equinox.common-3.10.300.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\org.eclipse.osgi-3.13.300-custom.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\org.osgi.core-4.3.1.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\p4java-2014.1.965322.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\slf4j-api-1.7.10.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\stax2-api-3.1.4.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\super-csv-2.3.0.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\svn-javahl-api-1.6.18-v2.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\vault_client_api-1.0.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\woodstox-core-asl-4.4.1.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\ws-commons-util-1.0.2.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\wsdl4j-1.6.3.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\xml-apis-1.0.b2.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\xml-resolver-1.2.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\xmlrpc-client-3.1.3.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\xmlrpc-common-3.1.3.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\xmlrpc-server-3.1.3.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\xmlschema-core-2.2.3.jar;C:\Program Files\Collaborator Client3\.\ui\plugins\com.smartbear.collaborator_13.1.13100\zzz-com.microsoft.tfs.sdk-11.0.0-custom.jar
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vm.vendor:  Oracle Corporation
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.arch.data.model:  64
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   install4j.exeDir:  C:\Program Files\Collaborator Client3\
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   user.variant:  
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vendor.url:  http://java.oracle.com/
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   user.timezone:  Europe/Moscow
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   os.name:  Windows 10
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vm.specification.version:  11
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   user.country:  US
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.boot.library.path:  c:\program files\collaborator client3\jre\bin
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.java.command:  C:\Program Files\Collaborator Client3\ccollab.exe
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   jdk.debug:  release
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.cpu.endian:  little
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   collab.install.dir:  C:\Program Files\Collaborator Client3\
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   user.home:  C:\Users\olegb
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   exe4j.unextractedPosition:  0
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   user.language:  en
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.stderr.encoding:  cp437
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.specification.vendor:  Oracle Corporation
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.version.date:  2018-09-25
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.home:  c:\program files\collaborator client3\jre
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   file.separator:  \
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vm.compressedOopsMode:  Zero based
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   line.separator:  
+
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.stdout.encoding:  cp437
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.specification.name:  Java Platform API Specification
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vm.specification.vendor:  Oracle Corporation
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.awt.graphicsenv:  sun.awt.Win32GraphicsEnvironment
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   exe4j.moduleName:  C:\Program Files\Collaborator Client3\ccollab.exe
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   exe4j.tempDir:  
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   user.script:  
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   exe4j.consoleCodepage:  cp437
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.util.logging.config.file:  C:\Program Files\Collaborator Client3\/ccollab.logging.properties
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.management.compiler:  HotSpot 64-Bit Tiered Compilers
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   exe4j.isInstall4j:  true
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.runtime.version:  11+28
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   user.name:  olegb
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   path.separator:  ;
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   os.version:  10.0
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.runtime.name:  OpenJDK Runtime Environment
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   file.encoding:  Cp1252
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vm.name:  OpenJDK 64-Bit Server VM
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vendor.version:  18.9
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   exe4j.semaphoreName:  Local\c:_program_files_collaborator_client3_ccollab.exe0
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   com.microsoft.tfs.jni.native.base-directory:  C:\Program Files\Collaborator Client3\/ui/plugins/com.smartbear.collaborator_13.1.13100/libs/native
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   install4j.appDir:  C:\Program Files\Collaborator Client3\
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vendor.url.bug:  http://bugreport.java.com/bugreport/
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.io.tmpdir:  C:\Users\olegb\AppData\Local\Temp\
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.version:  11
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   user.dir:  F:\Work\testgit
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   os.arch:  amd64
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vm.specification.name:  Java Virtual Machine Specification
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.awt.printerjob:  sun.awt.windows.WPrinterJob
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.os.patch.level:  
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.library.path:  c:\program files\collaborator client3\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Collaborator Client;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;F:\Work\Putty\;C:\Program Files\Collaborator Client3;C:\Program Files\Collaborator Client33;C:\Program Files\Collaborator Client4;C:\Users\olegb\AppData\Local\Microsoft\WindowsApps;;F:\IntelliJ IDEA 2020.1.2\bin;;C:\Users\olegb\.dotnet\tools
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vendor:  Oracle Corporation
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vm.info:  mixed mode
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vm.version:  11+28
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.io.unicode.encoding:  UnicodeLittle
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   org.apache.commons.logging.Log:  org.apache.commons.logging.impl.Jdk14Logger
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.class.version:  55.0
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   exe4j.launchName:  ccollab
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   install4j.swt:  false
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logEnvironment
+FINE: Logging environment variables.
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   USERDOMAIN_ROAMINGPROFILE:  DESKTOP-7OEH5VI
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PROCESSOR_LEVEL:  23
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   SESSIONNAME:  Console
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   ALLUSERSPROFILE:  C:\ProgramData
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PROCESSOR_ARCHITECTURE:  AMD64
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PSModulePath:  C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   SystemDrive:  C:
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   =ExitCode:  00000001
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   USERNAME:  olegb
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   ProgramFiles(x86):  C:\Program Files (x86)
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   FPS_BROWSER_USER_PROFILE_STRING:  Default
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PATHEXT:  .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   DriverData:  C:\Windows\System32\Drivers\DriverData
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   OneDriveConsumer:  C:\Users\olegb\OneDrive
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   ProgramData:  C:\ProgramData
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   =F::  F:\Work\testgit
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   ProgramW6432:  C:\Program Files
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   HOMEPATH:  \Users\olegb
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PROCESSOR_IDENTIFIER:  AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   ProgramFiles:  C:\Program Files
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PUBLIC:  C:\Users\Public
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   windir:  C:\WINDOWS
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   =:::  ::\
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   OPENSSL_CONF:  F:\Work\bin\openssl.cfg
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   LOCALAPPDATA:  C:\Users\olegb\AppData\Local
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   IntelliJ IDEA:  F:\IntelliJ IDEA 2020.1.2\bin;
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   USERDOMAIN:  DESKTOP-7OEH5VI
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   FPS_BROWSER_APP_PROFILE_STRING:  Internet Explorer
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   LOGONSERVER:  \\DESKTOP-7OEH5VI
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   JAVA_HOME:  C:\Program Files\Java\jdk1.8.0_281\bin
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PROMPT:  $P$G
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   OneDrive:  C:\Users\olegb\OneDrive
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   =C::  C:\Users\olegb
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   APPDATA:  C:\Users\olegb\AppData\Roaming
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   VBOX_HWVIRTEX_IGNORE_SVM_IN_USE:  1
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   CommonProgramFiles:  C:\Program Files\Common Files
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   Path:  c:\program files\collaborator client3\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Collaborator Client;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;F:\Work\Putty\;C:\Program Files\Collaborator Client3;C:\Program Files\Collaborator Client33;C:\Program Files\Collaborator Client4;C:\Users\olegb\AppData\Local\Microsoft\WindowsApps;;F:\IntelliJ IDEA 2020.1.2\bin;;C:\Users\olegb\.dotnet\tools
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   OS:  Windows_NT
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   COMPUTERNAME:  DESKTOP-7OEH5VI
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PROCESSOR_REVISION:  7100
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   CommonProgramW6432:  C:\Program Files\Common Files
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   ComSpec:  C:\WINDOWS\system32\cmd.exe
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   SystemRoot:  C:\WINDOWS
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   TEMP:  C:\Users\olegb\AppData\Local\Temp
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   HOMEDRIVE:  C:
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   USERPROFILE:  C:\Users\olegb
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   TMP:  C:\Users\olegb\AppData\Local\Temp
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   CommonProgramFiles(x86):  C:\Program Files (x86)\Common Files
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils logMap
+FINE:   NUMBER_OF_PROCESSORS:  12
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils loadConfigFiles
+FINE: loading config files
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Program Files\Collaborator Client3\.smartbear\com.smartbear.ccollab.client.txt
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Program Files\Collaborator Client3\.smartbear\com.smartbear.ccollab.client.txt exists
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Program Files\Collaborator Client3\.smartbear\com.smartbear.ccollab.client.txt can not be read
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils loadConfigFiles
+FINE: Install preferences:
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: F:\Work\testgit\.smartbear\com.smartbear.ccollab.client.txt
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File F:\Work\testgit\.smartbear\com.smartbear.ccollab.client.txt exists
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File F:\Work\testgit\.smartbear\com.smartbear.ccollab.client.txt can not be read
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils loadConfigFiles
+FINE: User dir preferences:
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt exists
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt can be read
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils loadConfigFiles
+FINE: Profile preferences:
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logProperties
+FINE:   loginticketid:  3cfe195dc8d42665df25217374348090
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logProperties
+FINE:   product:  enterprise
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logProperties
+FINE:   serverproxyport:  
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logProperties
+FINE:   serverproxyhost:  
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logProperties
+FINE:   serverpasskeyutf8:  d2c5f42a8b14c8a44f4f7bb181de7b9b
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logProperties
+FINE:   clientguid:  14b8de642de81c41b321954752a3e158
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logProperties
+FINE:   guishutdownport:  -1
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logProperties
+FINE:   user:  oleg.beriashvili
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logProperties
+FINE:   url:  https://dogfood.collabdevteam.net/
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Program Files\Collaborator Client3\.smartbear\com.smartbear.scm.txt
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Program Files\Collaborator Client3\.smartbear\com.smartbear.scm.txt exists
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Program Files\Collaborator Client3\.smartbear\com.smartbear.scm.txt can not be read
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils loadConfigFiles
+FINE: Legacy SCM install preferences:
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: F:\Work\testgit\.smartbear\com.smartbear.scm.txt
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File F:\Work\testgit\.smartbear\com.smartbear.scm.txt exists
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File F:\Work\testgit\.smartbear\com.smartbear.scm.txt can not be read
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils loadConfigFiles
+FINE: Legacy SCM User Dir preferences:
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Users\olegb\.smartbear\com.smartbear.scm.txt
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\olegb\.smartbear\com.smartbear.scm.txt exists
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\olegb\.smartbear\com.smartbear.scm.txt can not be read
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils loadConfigFiles
+FINE: Legacy SCM Profile preferences:
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils loadConfigFiles
+FINE: Aggregated preferences
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logMap
+FINE:   loginticketid:  3cfe195dc8d42665df25217374348090
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logMap
+FINE:   product:  enterprise
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logMap
+FINE:   serverproxyport:  
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logMap
+FINE:   serverproxyhost:  
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logMap
+FINE:   serverpasskeyutf8:  d2c5f42a8b14c8a44f4f7bb181de7b9b
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logMap
+FINE:   clientguid:  14b8de642de81c41b321954752a3e158
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logMap
+FINE:   guishutdownport:  -1
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logMap
+FINE:   user:  oleg.beriashvili
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logMap
+FINE:   url:  https://dogfood.collabdevteam.net/
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: Loading bean GlobalOptions: {
+   debug = false
+   editor = (Empty)
+   editor-prompt = false
+   nobrowser = false
+   no-browser = false
+   non-interactive = false
+   overwrite-trust-store-in-ssl = false
+   password = (Empty)
+   pause-on-error = false
+   pref-dir = (Empty)
+   profile = (Empty)
+   quiet = false
+   server-login = olegb
+   server-proxy-host = (Empty)
+   server-proxy-port = (Empty)
+   server-url = (Empty)
+   url = (Empty)
+   user = olegb
+   user-provided-auth = false
+   verbose = false
+
+} from map
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   loginticketid:  3cfe195dc8d42665df25217374348090
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   product:  enterprise
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   serverproxyport:  
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   serverproxyhost:  
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   serverpasskeyutf8:  d2c5f42a8b14c8a44f4f7bb181de7b9b
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   clientguid:  14b8de642de81c41b321954752a3e158
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   guishutdownport:  -1
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   user:  oleg.beriashvili
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   url:  https://dogfood.collabdevteam.net/
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   loginticketid:  3cfe195dc8d42665df25217374348090
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   product:  enterprise
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   serverproxyport:  
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   serverproxyhost:  
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   serverpasskeyutf8:  d2c5f42a8b14c8a44f4f7bb181de7b9b
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   clientguid:  14b8de642de81c41b321954752a3e158
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   guishutdownport:  -1
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   user:  oleg.beriashvili
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   url:  https://dogfood.collabdevteam.net/
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map contains normalized property serverproxyhost
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: raw value of property in map is 
+Feb 25, 2021 5:42:30 PM org.apache.commons.beanutils.ConvertUtils convert
+FINE: Convert string '' to class 'java.lang.String'
+Feb 25, 2021 5:42:30 PM org.apache.commons.beanutils.converters.StringConverter convert
+FINE: Converting 'String' value '' to type 'String'
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: converted raw value in to typed value: 
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: loaded typed value in to bean
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map contains normalized property user
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: raw value of property in map is oleg.beriashvili
+Feb 25, 2021 5:42:30 PM org.apache.commons.beanutils.ConvertUtils convert
+FINE: Convert string 'oleg.beriashvili' to class 'java.lang.String'
+Feb 25, 2021 5:42:30 PM org.apache.commons.beanutils.converters.StringConverter convert
+FINE: Converting 'String' value 'oleg.beriashvili' to type 'String'
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: converted raw value in to typed value: oleg.beriashvili
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: loaded typed value in to bean
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map contains normalized property url
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: raw value of property in map is https://dogfood.collabdevteam.net/
+Feb 25, 2021 5:42:30 PM org.apache.commons.beanutils.ConvertUtils convert
+FINE: Convert string 'https://dogfood.collabdevteam.net/' to class 'java.net.URL'
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: converted raw value in to typed value: https://dogfood.collabdevteam.net/
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: loaded typed value in to bean
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map contains normalized property serverproxyport
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: raw value of property in map is 
+Feb 25, 2021 5:42:30 PM org.apache.commons.beanutils.ConvertUtils convert
+FINE: Convert string '' to class 'java.lang.String'
+Feb 25, 2021 5:42:30 PM org.apache.commons.beanutils.converters.StringConverter convert
+FINE: Converting 'String' value '' to type 'String'
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: converted raw value in to typed value: 
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: loaded typed value in to bean
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map contains secure normalized utf-8 property serverpasskeyutf8
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: (not logging secure value)
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils setLogLevel
+FINE: Setting log level of logger 'org.apache.commons.beanutils.ConvertUtils' to CONFIG
+Feb 25, 2021 5:42:30 PM org.apache.commons.beanutils.converters.StringConverter convert
+FINE: Converting 'String' value 'Adherent5673' to type 'String'
+Feb 25, 2021 5:42:30 PM com.smartbear.util.LoggingUtils setLogLevel
+FINE: Setting log level of logger 'org.apache.commons.beanutils.ConvertUtils' to null
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: converted raw value in to typed value: (not logging secure value)
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: loaded typed value in to bean
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: map remaining: {loginticketid=3cfe195dc8d42665df25217374348090, product=enterprise, clientguid=14b8de642de81c41b321954752a3e158, guishutdownport=-1}
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: Loading bean ScmOptions: {
+   current-directory = (Empty)
+   global-provider = (Empty)
+   scm = (Empty)
+
+   (AccuRev only)
+      accurev-depot = (Empty)
+      accurev-exe = accurev
+      accurev-anc-algorithm = (Empty)
+
+   (ClearCase only)
+      ccrc-server-url = (Empty)
+      ccrc-user = (Empty)
+      ccrc-passwd = (Empty)
+      clearcase-exe = (Empty)
+      clearcase-update-snapshot = false
+      clearcase-view-directory = (Empty)
+
+   (CVS only)
+      cvs-exe = cvs
+      cvsroot = (Empty)
+
+   (Git only)
+      git-exe = (Empty)
+      git-repository = (Empty)
+      git-skip-index = false
+
+   (Mercurial only)
+      mercurial-exe = hg
+
+   (Perforce only)
+      p4 = (Empty)
+      p4port = (Empty)
+      p4user = (Empty)
+      p4passwd = (Empty)
+      p4client = (Empty)
+      p4-ignore-integration-history = false
+      p4-protects-script = (Empty)
+      p4charset = (Empty)
+      p4-require-empty-default-changelist = false
+      p4-change-content-trigger = false
+      p4-specify-command-charset = true
+      p4-test-p4java = false
+
+   (PTC Integrity only)
+      mks-host = (Empty)
+      mks-port = (Empty)
+      mks-user = (Empty)
+      mks-passwd = (Empty)
+      mks-expand-keywords = true
+
+   (Rational Synergy only)
+      ccm-exe = ccm
+      ccm-user = (Empty)
+      ccm-passwd = (Empty)
+      ccm-engine-host = (Empty)
+      ccm-database-path = (Empty)
+      ccm-local-database-path = (Empty)
+      ccm-remote-client = false
+      ccm-server-url = (Empty)
+
+   (Rational Team Concert only)
+      rtc-repository-uri = (Empty)
+      rtc-username = (Empty)
+      rtc-password = (Empty)
+      add-assignments = (Empty)
+      remove-assignments = (Empty)
+      approve-assignments = (Empty)
+      rtc-impl = (Empty)
+
+   (StarTeam only)
+      stcmd-exe = stcmd
+
+   (Subversion only)
+      svn-exe = svn
+      svn-look-exe = (Empty)
+      svn-repo-url = (Empty)
+      svn-user = (Empty)
+      svn-passwd = (Empty)
+      svn-require-client-certificate-password = false
+      svn-auto-add = false
+      svn-recurse-externals = false
+      repo = (Empty)
+      svn-repo-path = (Empty)
+      svn-test-javahl = false
+
+   (Surround SCM only)
+      surround-exe = sscm
+      surround-server = (Empty)
+      surround-single-sign-on = false
+      surround-user = (Empty)
+      surround-passwd = (Empty)
+
+   (Team Foundation Server only)
+      tfs-collection = (Empty)
+      tfs-user = (Empty)
+      tfs-passwd = (Empty)
+
+   (Vault only)
+      vault-profile = (Empty)
+      vault-server = (Empty)
+      vault-repo = (Empty)
+      vault-user = (Empty)
+      vault-passwd = (Empty)
+      vault-proxy-domain = (Empty)
+      vault-proxy-server = (Empty)
+      vault-proxy-port = (Empty)
+      vault-proxy-user = (Empty)
+      vault-proxy-passwd = (Empty)
+      vault-fortress-mode = false
+
+   (Visual SourceSafe only)
+      vss-passwd = (Empty)
+      vss-exe = (Empty)
+      vss-user = (Empty)
+
+} from map
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   loginticketid:  3cfe195dc8d42665df25217374348090
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   product:  enterprise
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   clientguid:  14b8de642de81c41b321954752a3e158
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   guishutdownport:  -1
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   loginticketid:  3cfe195dc8d42665df25217374348090
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   product:  enterprise
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   clientguid:  14b8de642de81c41b321954752a3e158
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   guishutdownport:  -1
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: map remaining: {loginticketid=3cfe195dc8d42665df25217374348090, product=enterprise, clientguid=14b8de642de81c41b321954752a3e158, guishutdownport=-1}
+Feb 25, 2021 5:42:30 PM com.smartbear.ccollab.CLI parseGlobalOptionsAndCommand
+FINE: Loaded global options from command-line
+Feb 25, 2021 5:42:30 PM com.smartbear.ccollab.CLI logMap
+FINE:   debug:  true
+Feb 25, 2021 5:42:30 PM com.smartbear.ccollab.CLI logMap
+FINE:   command-option:  [new, test, master]
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: Loading bean GlobalOptions: {
+   debug = false
+   editor = (Empty)
+   editor-prompt = false
+   nobrowser = false
+   no-browser = false
+   non-interactive = false
+   overwrite-trust-store-in-ssl = false
+   password = (password value hidden)
+   pause-on-error = false
+   pref-dir = (Empty)
+   profile = (Empty)
+   quiet = false
+   server-login = oleg.beriashvili
+   server-proxy-host = (Empty)
+   server-proxy-port = (Empty)
+   server-url = https://dogfood.collabdevteam.net/
+   url = https://dogfood.collabdevteam.net/
+   user = oleg.beriashvili
+   user-provided-auth = false
+   verbose = false
+
+} from map
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   debug:  true
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   command-option:  [new, test, master]
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   debug:  true
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   command-option:  [new, test, master]
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map contains normalized property debug
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: raw value of property in map is true
+Feb 25, 2021 5:42:30 PM org.apache.commons.beanutils.ConvertUtils convert
+FINE: Convert string 'true' to class 'java.lang.Boolean'
+Feb 25, 2021 5:42:30 PM org.apache.commons.beanutils.converters.BooleanConverter convert
+FINE: Converting 'String' value 'true' to type 'Boolean'
+Feb 25, 2021 5:42:30 PM org.apache.commons.beanutils.converters.BooleanConverter convert
+FINE:     Converted to Boolean value 'true'
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: converted raw value in to typed value: true
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: loaded typed value in to bean
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: map remaining: {command-option=[new, test, master]}
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: Loading bean ScmOptions: {
+   current-directory = (Empty)
+   global-provider = (Empty)
+   scm = (Empty)
+
+   (AccuRev only)
+      accurev-depot = (Empty)
+      accurev-exe = accurev
+      accurev-anc-algorithm = (Empty)
+
+   (ClearCase only)
+      ccrc-server-url = (Empty)
+      ccrc-user = (Empty)
+      ccrc-passwd = (Empty)
+      clearcase-exe = (Empty)
+      clearcase-update-snapshot = false
+      clearcase-view-directory = (Empty)
+
+   (CVS only)
+      cvs-exe = cvs
+      cvsroot = (Empty)
+
+   (Git only)
+      git-exe = (Empty)
+      git-repository = (Empty)
+      git-skip-index = false
+
+   (Mercurial only)
+      mercurial-exe = hg
+
+   (Perforce only)
+      p4 = (Empty)
+      p4port = (Empty)
+      p4user = (Empty)
+      p4passwd = (Empty)
+      p4client = (Empty)
+      p4-ignore-integration-history = false
+      p4-protects-script = (Empty)
+      p4charset = (Empty)
+      p4-require-empty-default-changelist = false
+      p4-change-content-trigger = false
+      p4-specify-command-charset = true
+      p4-test-p4java = false
+
+   (PTC Integrity only)
+      mks-host = (Empty)
+      mks-port = (Empty)
+      mks-user = (Empty)
+      mks-passwd = (Empty)
+      mks-expand-keywords = true
+
+   (Rational Synergy only)
+      ccm-exe = ccm
+      ccm-user = (Empty)
+      ccm-passwd = (Empty)
+      ccm-engine-host = (Empty)
+      ccm-database-path = (Empty)
+      ccm-local-database-path = (Empty)
+      ccm-remote-client = false
+      ccm-server-url = (Empty)
+
+   (Rational Team Concert only)
+      rtc-repository-uri = (Empty)
+      rtc-username = (Empty)
+      rtc-password = (Empty)
+      add-assignments = (Empty)
+      remove-assignments = (Empty)
+      approve-assignments = (Empty)
+      rtc-impl = (Empty)
+
+   (StarTeam only)
+      stcmd-exe = stcmd
+
+   (Subversion only)
+      svn-exe = svn
+      svn-look-exe = (Empty)
+      svn-repo-url = (Empty)
+      svn-user = (Empty)
+      svn-passwd = (Empty)
+      svn-require-client-certificate-password = false
+      svn-auto-add = false
+      svn-recurse-externals = false
+      repo = (Empty)
+      svn-repo-path = (Empty)
+      svn-test-javahl = false
+
+   (Surround SCM only)
+      surround-exe = sscm
+      surround-server = (Empty)
+      surround-single-sign-on = false
+      surround-user = (Empty)
+      surround-passwd = (Empty)
+
+   (Team Foundation Server only)
+      tfs-collection = (Empty)
+      tfs-user = (Empty)
+      tfs-passwd = (Empty)
+
+   (Vault only)
+      vault-profile = (Empty)
+      vault-server = (Empty)
+      vault-repo = (Empty)
+      vault-user = (Empty)
+      vault-passwd = (Empty)
+      vault-proxy-domain = (Empty)
+      vault-proxy-server = (Empty)
+      vault-proxy-port = (Empty)
+      vault-proxy-user = (Empty)
+      vault-proxy-passwd = (Empty)
+      vault-fortress-mode = false
+
+   (Visual SourceSafe only)
+      vss-passwd = (Empty)
+      vss-exe = (Empty)
+      vss-user = (Empty)
+
+} from map
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   command-option:  [new, test, master]
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   command-option:  [new, test, master]
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: map remaining: {command-option=[new, test, master]}
+Feb 25, 2021 5:42:30 PM com.smartbear.ccollab.CLI parseGlobalOptionsAndCommand
+FINE: Found command ccollab addgitdiffs
+Feb 25, 2021 5:42:30 PM com.smartbear.ccollab.CLI parseGlobalOptionsAndCommand
+FINE: resolved full command: ccollab addgitdiffs
+Feb 25, 2021 5:42:30 PM com.smartbear.ccollab.CLI parseGlobalOptionsAndCommand
+FINE: command options: [new, test, master]
+Feb 25, 2021 5:42:30 PM com.smartbear.ccollab.CLI doMain
+FINE: End of cmdline parsing pass #1 - resolved command: ccollab addgitdiffs
+Feb 25, 2021 5:42:30 PM com.smartbear.ccollab.CLI doMain
+FINE: resolved global-options: GlobalOptions: {
+   debug = true
+   editor = (Empty)
+   editor-prompt = false
+   nobrowser = false
+   no-browser = false
+   non-interactive = false
+   overwrite-trust-store-in-ssl = false
+   password = (password value hidden)
+   pause-on-error = false
+   pref-dir = (Empty)
+   profile = (Empty)
+   quiet = false
+   server-login = oleg.beriashvili
+   server-proxy-host = (Empty)
+   server-proxy-port = (Empty)
+   server-url = https://dogfood.collabdevteam.net/
+   url = https://dogfood.collabdevteam.net/
+   user = oleg.beriashvili
+   user-provided-auth = false
+   verbose = true
+
+}
+Feb 25, 2021 5:42:30 PM com.smartbear.ccollab.CLI doMain
+FINE: resolved scm-options: ScmOptions: {
+   current-directory = (Empty)
+   global-provider = (Empty)
+   scm = (Empty)
+
+   (AccuRev only)
+      accurev-depot = (Empty)
+      accurev-exe = accurev
+      accurev-anc-algorithm = (Empty)
+
+   (ClearCase only)
+      ccrc-server-url = (Empty)
+      ccrc-user = (Empty)
+      ccrc-passwd = (Empty)
+      clearcase-exe = (Empty)
+      clearcase-update-snapshot = false
+      clearcase-view-directory = (Empty)
+
+   (CVS only)
+      cvs-exe = cvs
+      cvsroot = (Empty)
+
+   (Git only)
+      git-exe = (Empty)
+      git-repository = (Empty)
+      git-skip-index = false
+
+   (Mercurial only)
+      mercurial-exe = hg
+
+   (Perforce only)
+      p4 = (Empty)
+      p4port = (Empty)
+      p4user = (Empty)
+      p4passwd = (Empty)
+      p4client = (Empty)
+      p4-ignore-integration-history = false
+      p4-protects-script = (Empty)
+      p4charset = (Empty)
+      p4-require-empty-default-changelist = false
+      p4-change-content-trigger = false
+      p4-specify-command-charset = true
+      p4-test-p4java = false
+
+   (PTC Integrity only)
+      mks-host = (Empty)
+      mks-port = (Empty)
+      mks-user = (Empty)
+      mks-passwd = (Empty)
+      mks-expand-keywords = true
+
+   (Rational Synergy only)
+      ccm-exe = ccm
+      ccm-user = (Empty)
+      ccm-passwd = (Empty)
+      ccm-engine-host = (Empty)
+      ccm-database-path = (Empty)
+      ccm-local-database-path = (Empty)
+      ccm-remote-client = false
+      ccm-server-url = (Empty)
+
+   (Rational Team Concert only)
+      rtc-repository-uri = (Empty)
+      rtc-username = (Empty)
+      rtc-password = (Empty)
+      add-assignments = (Empty)
+      remove-assignments = (Empty)
+      approve-assignments = (Empty)
+      rtc-impl = (Empty)
+
+   (StarTeam only)
+      stcmd-exe = stcmd
+
+   (Subversion only)
+      svn-exe = svn
+      svn-look-exe = (Empty)
+      svn-repo-url = (Empty)
+      svn-user = (Empty)
+      svn-passwd = (Empty)
+      svn-require-client-certificate-password = false
+      svn-auto-add = false
+      svn-recurse-externals = false
+      repo = (Empty)
+      svn-repo-path = (Empty)
+      svn-test-javahl = false
+
+   (Surround SCM only)
+      surround-exe = sscm
+      surround-server = (Empty)
+      surround-single-sign-on = false
+      surround-user = (Empty)
+      surround-passwd = (Empty)
+
+   (Team Foundation Server only)
+      tfs-collection = (Empty)
+      tfs-user = (Empty)
+      tfs-passwd = (Empty)
+
+   (Vault only)
+      vault-profile = (Empty)
+      vault-server = (Empty)
+      vault-repo = (Empty)
+      vault-user = (Empty)
+      vault-passwd = (Empty)
+      vault-proxy-domain = (Empty)
+      vault-proxy-server = (Empty)
+      vault-proxy-port = (Empty)
+      vault-proxy-user = (Empty)
+      vault-proxy-passwd = (Empty)
+      vault-fortress-mode = false
+
+   (Visual SourceSafe only)
+      vss-passwd = (Empty)
+      vss-exe = (Empty)
+      vss-user = (Empty)
+
+}
+Feb 25, 2021 5:42:30 PM com.smartbear.ccollab.CLI parseCommandOptions
+FINE: created command object: com.smartbear.ccollab.client.commands.diffs.CommandAddGitDiffs@7216fb24
+Feb 25, 2021 5:42:30 PM com.smartbear.ccollab.CLI parseCommandOptions
+FINE: parsed command-options
+Feb 25, 2021 5:42:30 PM com.smartbear.ccollab.CLI logMap
+FINE:   git-diff-arg:  [test, master]
+Feb 25, 2021 5:42:30 PM com.smartbear.ccollab.CLI logMap
+FINE:   review:  new
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: Loading bean com.smartbear.ccollab.client.commands.diffs.CommandAddGitDiffs@7216fb24 from map
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   git-diff-arg:  [test, master]
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   review:  new
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   git-diff-arg:  [test, master]
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils logMap
+FINE:   review:  new
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map contains normalized property review
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: raw value of property in map is new
+Feb 25, 2021 5:42:30 PM org.apache.commons.beanutils.ConvertUtils convert
+FINE: Convert string 'new' to class 'java.lang.String'
+Feb 25, 2021 5:42:30 PM org.apache.commons.beanutils.converters.StringConverter convert
+FINE: Converting 'String' value 'new' to type 'String'
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: converted raw value in to typed value: new
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: loaded typed value in to bean
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map contains normalized property gitdiffarg
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: raw value of property in map is [test, master]
+Feb 25, 2021 5:42:30 PM org.apache.commons.beanutils.ConvertUtils convert
+FINE: Convert String[2] to class 'java.lang.String[]'
+Feb 25, 2021 5:42:30 PM org.apache.commons.beanutils.converters.StringConverter convert
+FINE: Converting 'String' value 'test' to type 'String'
+Feb 25, 2021 5:42:30 PM org.apache.commons.beanutils.converters.StringConverter convert
+FINE: Converting 'String' value 'master' to type 'String'
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: converted raw value in to typed value: [Ljava.lang.String;@45815ffc
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: loaded typed value in to bean
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: map remaining: {}
+Feb 25, 2021 5:42:30 PM com.smartbear.ccollab.CLI doMain
+FINE: End of cmdline parsing pass #2 - created and initialized command: com.smartbear.ccollab.client.commands.diffs.CommandAddGitDiffs@7216fb24
+Feb 25, 2021 5:42:30 PM com.smartbear.progress.CommandLineProgressMonitor setTaskName
+FINE: Connecting to server at https://dogfood.collabdevteam.net/
+Feb 25, 2021 5:42:30 PM com.smartbear.ccollab.CLI jsonlogin
+FINE: Establishing connection to Collaborator Enterprise server
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt exists
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt can be read
+Feb 25, 2021 5:42:30 PM com.smartbear.beans.ConfigUtils loadRaw
+FINE: Loaded 'clientguid' = '14b8de642de81c41b321954752a3e158' from config file
+Feb 25, 2021 5:42:31 PM org.apache.http.client.protocol.RequestAddCookies process
+FINE: CookieSpec selected: default
+Feb 25, 2021 5:42:31 PM org.apache.http.client.protocol.RequestAuthCache process
+FINE: Auth cache not set in the context
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager requestConnection
+FINE: Connection request: [route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager leaseConnection
+FINE: Connection leased: [id: 0][route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Opening connection {s}->https://dogfood.collabdevteam.net:443
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect
+FINE: Connecting to dogfood.collabdevteam.net/34.236.209.254:443
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory connectSocket
+FINE: Connecting socket to dogfood.collabdevteam.net/34.236.209.254:443 with timeout 0
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Enabled protocols: [TLSv1.2]
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Enabled cipher suites:[TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Starting handshake
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE: Secure session established
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  negotiated protocol: TLSv1.2
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  peer principal: CN=*.collabdevteam.net
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  peer alternative names: [*.collabdevteam.net, collabdevteam.net]
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  issuer principal: CN=Amazon, OU=Server CA 1B, O=Amazon, C=US
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect
+FINE: Connection established 192.168.0.123:2363<->34.236.209.254:443
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Executing request POST /services/json/v1 HTTP/1.1
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Target auth state: UNCHALLENGED
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Proxy auth state: UNCHALLENGED
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-0 >> POST /services/json/v1 HTTP/1.1
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-0 >> X-Smart-Bear-Build: 13100
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-0 >> X-Smart-Bear-Client-GUID: 14b8de642de81c41b321954752a3e158
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-0 >> Content-Length: 60
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-0 >> Content-Type: application/json; charset=UTF-8
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-0 >> Host: dogfood.collabdevteam.net
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-0 >> Connection: Keep-Alive
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-0 >> User-Agent: Collaborator Enterprise 13.1.13100
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-0 >> Accept-Encoding: gzip,deflate
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 >> "POST /services/json/v1 HTTP/1.1[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 >> "X-Smart-Bear-Build: 13100[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 >> "X-Smart-Bear-Client-GUID: 14b8de642de81c41b321954752a3e158[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 >> "Content-Length: 60[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 >> "Host: dogfood.collabdevteam.net[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 >> "User-Agent: Collaborator Enterprise 13.1.13100[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 >> "[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 >> "[{"command":"ServerInfoService.getServerBuild","args":null}]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 << "Date: Thu, 25 Feb 2021 14:42:32 GMT[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 << "Content-Length: 34[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 << "Set-Cookie: JSESSIONID_COLLAB=4B6F4269BAD22DC2B3A35D4456E26604; Path=/; HttpOnly[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 << "X-Smart-Bear-Not-Logged-In: true[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 << "X-FRAME-OPTIONS: SAMEORIGIN[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 << "[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-0 << "[{"result":{"serverBuild":13500}}]"
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-0 << HTTP/1.1 200 
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-0 << Date: Thu, 25 Feb 2021 14:42:32 GMT
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-0 << Content-Type: application/json;charset=utf-8
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-0 << Content-Length: 34
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-0 << Connection: keep-alive
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-0 << Set-Cookie: JSESSIONID_COLLAB=4B6F4269BAD22DC2B3A35D4456E26604; Path=/; HttpOnly
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-0 << X-Smart-Bear-Not-Logged-In: true
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-0 << X-FRAME-OPTIONS: SAMEORIGIN
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Connection can be kept alive indefinitely
+Feb 25, 2021 5:42:31 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+FINE: Cookie accepted [JSESSIONID_COLLAB="4B6F4269BAD22DC2B3A35D4456E26604", version:0, domain:dogfood.collabdevteam.net, path:/, expiry:null]
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection
+FINE: Connection [id: 0][route: {s}->https://dogfood.collabdevteam.net:443] can be kept alive indefinitely
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.conn.DefaultManagedHttpClientConnection setSocketTimeout
+FINE: http-outgoing-0: set socket timeout to 0
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection
+FINE: Connection released: [id: 0][route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+Feb 25, 2021 5:42:31 PM com.smartbear.ccollab.client.LoginUtils checkServerBuildHighEnough
+FINE: Current server version: 13500
+Feb 25, 2021 5:42:31 PM org.apache.http.client.protocol.RequestAddCookies process
+FINE: CookieSpec selected: default
+Feb 25, 2021 5:42:31 PM org.apache.http.client.protocol.RequestAuthCache process
+FINE: Auth cache not set in the context
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager requestConnection
+FINE: Connection request: [route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager leaseConnection
+FINE: Connection leased: [id: 1][route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Opening connection {s}->https://dogfood.collabdevteam.net:443
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect
+FINE: Connecting to dogfood.collabdevteam.net/34.236.209.254:443
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory connectSocket
+FINE: Connecting socket to dogfood.collabdevteam.net/34.236.209.254:443 with timeout 0
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Enabled protocols: [TLSv1.2]
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Enabled cipher suites:[TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Starting handshake
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE: Secure session established
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  negotiated protocol: TLSv1.2
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  peer principal: CN=*.collabdevteam.net
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  peer alternative names: [*.collabdevteam.net, collabdevteam.net]
+Feb 25, 2021 5:42:31 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  issuer principal: CN=Amazon, OU=Server CA 1B, O=Amazon, C=US
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect
+FINE: Connection established 192.168.0.123:2364<->34.236.209.254:443
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Executing request POST /services/json/v1 HTTP/1.1
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Target auth state: UNCHALLENGED
+Feb 25, 2021 5:42:31 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Proxy auth state: UNCHALLENGED
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-1 >> POST /services/json/v1 HTTP/1.1
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-1 >> X-Smart-Bear-Build: 13100
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-1 >> X-Smart-Bear-Client-GUID: 14b8de642de81c41b321954752a3e158
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-1 >> Content-Length: 71
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-1 >> Content-Type: application/json; charset=UTF-8
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-1 >> Host: dogfood.collabdevteam.net
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-1 >> Connection: Keep-Alive
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-1 >> User-Agent: Collaborator Enterprise 13.1.13100
+Feb 25, 2021 5:42:31 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-1 >> Accept-Encoding: gzip,deflate
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-1 >> "POST /services/json/v1 HTTP/1.1[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-1 >> "X-Smart-Bear-Build: 13100[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-1 >> "X-Smart-Bear-Client-GUID: 14b8de642de81c41b321954752a3e158[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-1 >> "Content-Length: 71[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-1 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-1 >> "Host: dogfood.collabdevteam.net[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-1 >> "User-Agent: Collaborator Enterprise 13.1.13100[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-1 >> "[\r][\n]"
+Feb 25, 2021 5:42:31 PM org.apache.http.wire wire
+FINE: http-outgoing-1 >> "[{"command":"ServerInfoService.getMinimumJavaClientBuild","args":null}]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-1 << "HTTP/1.1 200 [\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-1 << "Date: Thu, 25 Feb 2021 14:42:32 GMT[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-1 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-1 << "Content-Length: 45[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-1 << "Set-Cookie: JSESSIONID_COLLAB=1FC6EFDC69B254126E0FE018153A840B; Path=/; HttpOnly[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-1 << "X-Smart-Bear-Not-Logged-In: true[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-1 << "X-FRAME-OPTIONS: SAMEORIGIN[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-1 << "[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-1 << "[{"result":{"minimumJavaClientBuild":12000}}]"
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-1 << HTTP/1.1 200 
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-1 << Date: Thu, 25 Feb 2021 14:42:32 GMT
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-1 << Content-Type: application/json;charset=utf-8
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-1 << Content-Length: 45
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-1 << Connection: keep-alive
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-1 << Set-Cookie: JSESSIONID_COLLAB=1FC6EFDC69B254126E0FE018153A840B; Path=/; HttpOnly
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-1 << X-Smart-Bear-Not-Logged-In: true
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-1 << X-FRAME-OPTIONS: SAMEORIGIN
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Connection can be kept alive indefinitely
+Feb 25, 2021 5:42:32 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+FINE: Cookie accepted [JSESSIONID_COLLAB="1FC6EFDC69B254126E0FE018153A840B", version:0, domain:dogfood.collabdevteam.net, path:/, expiry:null]
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection
+FINE: Connection [id: 1][route: {s}->https://dogfood.collabdevteam.net:443] can be kept alive indefinitely
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.conn.DefaultManagedHttpClientConnection setSocketTimeout
+FINE: http-outgoing-1: set socket timeout to 0
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection
+FINE: Connection released: [id: 1][route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+Feb 25, 2021 5:42:32 PM com.smartbear.ccollab.client.LoginUtils checkClientCompatibility
+FINE: Current client version: 13100
+Feb 25, 2021 5:42:32 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt
+Feb 25, 2021 5:42:32 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt exists
+Feb 25, 2021 5:42:32 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt can be read
+Feb 25, 2021 5:42:32 PM com.smartbear.beans.ConfigUtils loadRaw
+FINE: Loaded 'loginticketid' = '3cfe195dc8d42665df25217374348090' from config file
+Feb 25, 2021 5:42:32 PM org.apache.http.client.protocol.RequestAddCookies process
+FINE: CookieSpec selected: default
+Feb 25, 2021 5:42:32 PM org.apache.http.client.protocol.RequestAuthCache process
+FINE: Auth cache not set in the context
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager requestConnection
+FINE: Connection request: [route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager leaseConnection
+FINE: Connection leased: [id: 2][route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Opening connection {s}->https://dogfood.collabdevteam.net:443
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect
+FINE: Connecting to dogfood.collabdevteam.net/34.236.209.254:443
+Feb 25, 2021 5:42:32 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory connectSocket
+FINE: Connecting socket to dogfood.collabdevteam.net/34.236.209.254:443 with timeout 0
+Feb 25, 2021 5:42:32 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Enabled protocols: [TLSv1.2]
+Feb 25, 2021 5:42:32 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Enabled cipher suites:[TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Feb 25, 2021 5:42:32 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Starting handshake
+Feb 25, 2021 5:42:32 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE: Secure session established
+Feb 25, 2021 5:42:32 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  negotiated protocol: TLSv1.2
+Feb 25, 2021 5:42:32 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+Feb 25, 2021 5:42:32 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  peer principal: CN=*.collabdevteam.net
+Feb 25, 2021 5:42:32 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  peer alternative names: [*.collabdevteam.net, collabdevteam.net]
+Feb 25, 2021 5:42:32 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  issuer principal: CN=Amazon, OU=Server CA 1B, O=Amazon, C=US
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect
+FINE: Connection established 192.168.0.123:2365<->34.236.209.254:443
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Executing request POST /services/json/v1 HTTP/1.1
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Target auth state: UNCHALLENGED
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Proxy auth state: UNCHALLENGED
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-2 >> POST /services/json/v1 HTTP/1.1
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-2 >> X-Smart-Bear-Build: 13100
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-2 >> X-Smart-Bear-Client-GUID: 14b8de642de81c41b321954752a3e158
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-2 >> Content-Length: 288
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-2 >> Content-Type: application/json; charset=UTF-8
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-2 >> Host: dogfood.collabdevteam.net
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-2 >> Connection: Keep-Alive
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-2 >> User-Agent: Collaborator Enterprise 13.1.13100
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-2 >> Accept-Encoding: gzip,deflate
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 >> "POST /services/json/v1 HTTP/1.1[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 >> "X-Smart-Bear-Build: 13100[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 >> "X-Smart-Bear-Client-GUID: 14b8de642de81c41b321954752a3e158[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 >> "Content-Length: 288[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 >> "Host: dogfood.collabdevteam.net[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 >> "User-Agent: Collaborator Enterprise 13.1.13100[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 >> "[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 >> "[{"command":"SessionService.setMetadata","args":{"expectedServerVersion":"13100","clientStringId":"json-api-client","clientName":"14b8de642de81c41b321954752a3e158"}},{"command":"SessionService.authenticate","args":{"login":"oleg.beriashvili","ticket":"3cfe195dc8d42665df25217374348090"}}]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 << "HTTP/1.1 200 [\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 << "Date: Thu, 25 Feb 2021 14:42:33 GMT[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 << "Content-Length: 29[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 << "Set-Cookie: JSESSIONID_COLLAB=2855180558AC56F01D563790D80EFB0D; Path=/; HttpOnly[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 << "X-Smart-Bear-Not-Logged-In: true[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 << "X-FRAME-OPTIONS: SAMEORIGIN[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 << "[\r][\n]"
+Feb 25, 2021 5:42:32 PM org.apache.http.wire wire
+FINE: http-outgoing-2 << "[{"result":{}},{"result":{}}]"
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-2 << HTTP/1.1 200 
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-2 << Date: Thu, 25 Feb 2021 14:42:33 GMT
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-2 << Content-Type: application/json;charset=utf-8
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-2 << Content-Length: 29
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-2 << Connection: keep-alive
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-2 << Set-Cookie: JSESSIONID_COLLAB=2855180558AC56F01D563790D80EFB0D; Path=/; HttpOnly
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-2 << X-Smart-Bear-Not-Logged-In: true
+Feb 25, 2021 5:42:32 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-2 << X-FRAME-OPTIONS: SAMEORIGIN
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Connection can be kept alive indefinitely
+Feb 25, 2021 5:42:32 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+FINE: Cookie accepted [JSESSIONID_COLLAB="2855180558AC56F01D563790D80EFB0D", version:0, domain:dogfood.collabdevteam.net, path:/, expiry:null]
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection
+FINE: Connection [id: 2][route: {s}->https://dogfood.collabdevteam.net:443] can be kept alive indefinitely
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.conn.DefaultManagedHttpClientConnection setSocketTimeout
+FINE: http-outgoing-2: set socket timeout to 0
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection
+FINE: Connection released: [id: 2][route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+Feb 25, 2021 5:42:32 PM org.apache.http.client.protocol.RequestAddCookies process
+FINE: CookieSpec selected: default
+Feb 25, 2021 5:42:32 PM org.apache.http.client.protocol.RequestAuthCache process
+FINE: Auth cache not set in the context
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager requestConnection
+FINE: Connection request: [route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager leaseConnection
+FINE: Connection leased: [id: 3][route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Opening connection {s}->https://dogfood.collabdevteam.net:443
+Feb 25, 2021 5:42:32 PM org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect
+FINE: Connecting to dogfood.collabdevteam.net/34.236.209.254:443
+Feb 25, 2021 5:42:32 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory connectSocket
+FINE: Connecting socket to dogfood.collabdevteam.net/34.236.209.254:443 with timeout 0
+Feb 25, 2021 5:42:32 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Enabled protocols: [TLSv1.2]
+Feb 25, 2021 5:42:32 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Enabled cipher suites:[TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Feb 25, 2021 5:42:32 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Starting handshake
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE: Secure session established
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  negotiated protocol: TLSv1.2
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  peer principal: CN=*.collabdevteam.net
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  peer alternative names: [*.collabdevteam.net, collabdevteam.net]
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  issuer principal: CN=Amazon, OU=Server CA 1B, O=Amazon, C=US
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect
+FINE: Connection established 192.168.0.123:2366<->34.236.209.254:443
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Executing request POST /services/json/v1 HTTP/1.1
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Target auth state: UNCHALLENGED
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Proxy auth state: UNCHALLENGED
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-3 >> POST /services/json/v1 HTTP/1.1
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-3 >> X-Smart-Bear-Build: 13100
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-3 >> X-Smart-Bear-Client-GUID: 14b8de642de81c41b321954752a3e158
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-3 >> Content-Length: 56
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-3 >> Content-Type: application/json; charset=UTF-8
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-3 >> Host: dogfood.collabdevteam.net
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-3 >> Connection: Keep-Alive
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager shutdown
+FINE: Connection manager is shutting down
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-3 >> User-Agent: Collaborator Enterprise 13.1.13100
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.DefaultManagedHttpClientConnection close
+FINE: http-outgoing-2: Close connection
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-3 >> Accept-Encoding: gzip,deflate
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 >> "POST /services/json/v1 HTTP/1.1[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 >> "X-Smart-Bear-Build: 13100[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 >> "X-Smart-Bear-Client-GUID: 14b8de642de81c41b321954752a3e158[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 >> "Content-Length: 56[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 >> "Host: dogfood.collabdevteam.net[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 >> "User-Agent: Collaborator Enterprise 13.1.13100[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 >> "[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 >> "[{"command":"ServerInfoService.getEdition","args":null}]"
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager shutdown
+FINE: Connection manager shut down
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager shutdown
+FINE: Connection manager is shutting down
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.DefaultManagedHttpClientConnection close
+FINE: http-outgoing-1: Close connection
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager shutdown
+FINE: Connection manager shut down
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager shutdown
+FINE: Connection manager is shutting down
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.DefaultManagedHttpClientConnection close
+FINE: http-outgoing-0: Close connection
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager shutdown
+FINE: Connection manager shut down
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 << "HTTP/1.1 200 [\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 << "Date: Thu, 25 Feb 2021 14:42:33 GMT[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 << "Content-Length: 37[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 << "Set-Cookie: JSESSIONID_COLLAB=5B11474B651D66A5F8B776DCA0D1EE1F; Path=/; HttpOnly[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 << "X-Smart-Bear-Not-Logged-In: true[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 << "X-FRAME-OPTIONS: SAMEORIGIN[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 << "[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-3 << "[{"result":{"edition":"Enterprise"}}]"
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-3 << HTTP/1.1 200 
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-3 << Date: Thu, 25 Feb 2021 14:42:33 GMT
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-3 << Content-Type: application/json;charset=utf-8
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-3 << Content-Length: 37
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-3 << Connection: keep-alive
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-3 << Set-Cookie: JSESSIONID_COLLAB=5B11474B651D66A5F8B776DCA0D1EE1F; Path=/; HttpOnly
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-3 << X-Smart-Bear-Not-Logged-In: true
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-3 << X-FRAME-OPTIONS: SAMEORIGIN
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Connection can be kept alive indefinitely
+Feb 25, 2021 5:42:33 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+FINE: Cookie accepted [JSESSIONID_COLLAB="5B11474B651D66A5F8B776DCA0D1EE1F", version:0, domain:dogfood.collabdevteam.net, path:/, expiry:null]
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection
+FINE: Connection [id: 3][route: {s}->https://dogfood.collabdevteam.net:443] can be kept alive indefinitely
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.DefaultManagedHttpClientConnection setSocketTimeout
+FINE: http-outgoing-3: set socket timeout to 0
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection
+FINE: Connection released: [id: 3][route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+Feb 25, 2021 5:42:33 PM com.smartbear.ccollab.client.LoginUtils establishJsonConnection
+FINE: client version: Collaborator Enterprise version 13.1.13100.88
+Feb 25, 2021 5:42:33 PM com.smartbear.ccollab.client.LoginUtils establishJsonConnection
+FINE: Connected to server build 13500
+Feb 25, 2021 5:42:33 PM com.smartbear.ccollab.client.LoginUtils establishJsonConnection
+FINE: Connected server edition: Enterprise
+Feb 25, 2021 5:42:33 PM org.apache.http.client.protocol.RequestAddCookies process
+FINE: CookieSpec selected: default
+Feb 25, 2021 5:42:33 PM org.apache.http.client.protocol.RequestAuthCache process
+FINE: Auth cache not set in the context
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager requestConnection
+FINE: Connection request: [route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager leaseConnection
+FINE: Connection leased: [id: 4][route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Opening connection {s}->https://dogfood.collabdevteam.net:443
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect
+FINE: Connecting to dogfood.collabdevteam.net/34.236.209.254:443
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory connectSocket
+FINE: Connecting socket to dogfood.collabdevteam.net/34.236.209.254:443 with timeout 0
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Enabled protocols: [TLSv1.2]
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Enabled cipher suites:[TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Starting handshake
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE: Secure session established
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  negotiated protocol: TLSv1.2
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  peer principal: CN=*.collabdevteam.net
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  peer alternative names: [*.collabdevteam.net, collabdevteam.net]
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  issuer principal: CN=Amazon, OU=Server CA 1B, O=Amazon, C=US
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect
+FINE: Connection established 192.168.0.123:2367<->34.236.209.254:443
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Executing request POST /services/json/v1 HTTP/1.1
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Target auth state: UNCHALLENGED
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Proxy auth state: UNCHALLENGED
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-4 >> POST /services/json/v1 HTTP/1.1
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-4 >> X-Smart-Bear-Build: 13100
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-4 >> X-Smart-Bear-Client-GUID: 14b8de642de81c41b321954752a3e158
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-4 >> Content-Length: 205
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-4 >> Content-Type: application/json; charset=UTF-8
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-4 >> Host: dogfood.collabdevteam.net
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-4 >> Connection: Keep-Alive
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-4 >> User-Agent: Collaborator Enterprise 13.1.13100
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-4 >> Accept-Encoding: gzip,deflate
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 >> "POST /services/json/v1 HTTP/1.1[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 >> "X-Smart-Bear-Build: 13100[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 >> "X-Smart-Bear-Client-GUID: 14b8de642de81c41b321954752a3e158[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 >> "Content-Length: 205[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 >> "Host: dogfood.collabdevteam.net[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 >> "User-Agent: Collaborator Enterprise 13.1.13100[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 >> "[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 >> "[{"command":"ServerInfoService.getSystemGlobalValues","args":{"systemGlobalValuesNames":["license-company-key","license-node-id","license-fixed-seats","license-floating-seats","license-expiration-date"]}}]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 << "HTTP/1.1 200 [\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 << "Date: Thu, 25 Feb 2021 14:42:34 GMT[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 << "Content-Length: 192[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 << "Connection: keep-alive[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 << "Set-Cookie: JSESSIONID_COLLAB=BCDA321EA74262D85EA8660012233901; Path=/; HttpOnly[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 << "X-Smart-Bear-Not-Logged-In: true[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 << "X-FRAME-OPTIONS: SAMEORIGIN[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 << "[\r][\n]"
+Feb 25, 2021 5:42:33 PM org.apache.http.wire wire
+FINE: http-outgoing-4 << "[{"result":{"systemGlobalValues":{"license-node-id":"4C03092E","license-fixed-seats":"-1","license-company-key":"trial","license-floating-seats":"-1","license-expiration-date":"1621468800"}}}]"
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-4 << HTTP/1.1 200 
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-4 << Date: Thu, 25 Feb 2021 14:42:34 GMT
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-4 << Content-Type: application/json;charset=utf-8
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-4 << Content-Length: 192
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-4 << Connection: keep-alive
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-4 << Set-Cookie: JSESSIONID_COLLAB=BCDA321EA74262D85EA8660012233901; Path=/; HttpOnly
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-4 << X-Smart-Bear-Not-Logged-In: true
+Feb 25, 2021 5:42:33 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-4 << X-FRAME-OPTIONS: SAMEORIGIN
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Connection can be kept alive indefinitely
+Feb 25, 2021 5:42:33 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+FINE: Cookie accepted [JSESSIONID_COLLAB="BCDA321EA74262D85EA8660012233901", version:0, domain:dogfood.collabdevteam.net, path:/, expiry:null]
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection
+FINE: Connection [id: 4][route: {s}->https://dogfood.collabdevteam.net:443] can be kept alive indefinitely
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.DefaultManagedHttpClientConnection setSocketTimeout
+FINE: http-outgoing-4: set socket timeout to 0
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection
+FINE: Connection released: [id: 4][route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+Feb 25, 2021 5:42:33 PM com.smartbear.ccollab.client.LoginUtils establishJsonConnection
+FINE: Server license company key: trial
+Feb 25, 2021 5:42:33 PM com.smartbear.ccollab.client.LoginUtils establishJsonConnection
+FINE: Server license node ID: 4C03092E
+Feb 25, 2021 5:42:33 PM com.smartbear.ccollab.client.LoginUtils establishJsonConnection
+FINE: Server license fixed seats:-1
+Feb 25, 2021 5:42:33 PM com.smartbear.ccollab.client.LoginUtils establishJsonConnection
+FINE: Server license floating seats: -1
+Feb 25, 2021 5:42:33 PM com.smartbear.ccollab.client.LoginUtils establishJsonConnection
+FINE: Server license upgrades until: 2021-05-20T03:00:00+03:00
+Feb 25, 2021 5:42:33 PM com.smartbear.progress.CommandLineProgressMonitor setTaskName
+FINE: Using Collaborator Client v13.1.13100
+Feb 25, 2021 5:42:33 PM org.apache.http.client.protocol.RequestAddCookies process
+FINE: CookieSpec selected: default
+Feb 25, 2021 5:42:33 PM org.apache.http.client.protocol.RequestAuthCache process
+FINE: Auth cache not set in the context
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager requestConnection
+FINE: Connection request: [route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager leaseConnection
+FINE: Connection leased: [id: 5][route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Opening connection {s}->https://dogfood.collabdevteam.net:443
+Feb 25, 2021 5:42:33 PM org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect
+FINE: Connecting to dogfood.collabdevteam.net/34.236.209.254:443
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory connectSocket
+FINE: Connecting socket to dogfood.collabdevteam.net/34.236.209.254:443 with timeout 0
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Enabled protocols: [TLSv1.2]
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Enabled cipher suites:[TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Feb 25, 2021 5:42:33 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Starting handshake
+Feb 25, 2021 5:42:34 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE: Secure session established
+Feb 25, 2021 5:42:34 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  negotiated protocol: TLSv1.2
+Feb 25, 2021 5:42:34 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+Feb 25, 2021 5:42:34 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  peer principal: CN=*.collabdevteam.net
+Feb 25, 2021 5:42:34 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  peer alternative names: [*.collabdevteam.net, collabdevteam.net]
+Feb 25, 2021 5:42:34 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  issuer principal: CN=Amazon, OU=Server CA 1B, O=Amazon, C=US
+Feb 25, 2021 5:42:34 PM org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect
+FINE: Connection established 192.168.0.123:2368<->34.236.209.254:443
+Feb 25, 2021 5:42:34 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Executing request POST /services/json/v1 HTTP/1.1
+Feb 25, 2021 5:42:34 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Target auth state: UNCHALLENGED
+Feb 25, 2021 5:42:34 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Proxy auth state: UNCHALLENGED
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-5 >> POST /services/json/v1 HTTP/1.1
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-5 >> X-Smart-Bear-Build: 13100
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-5 >> X-Smart-Bear-Client-GUID: 14b8de642de81c41b321954752a3e158
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-5 >> Content-Length: 79
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-5 >> Content-Type: application/json; charset=UTF-8
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-5 >> Host: dogfood.collabdevteam.net
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-5 >> Connection: Keep-Alive
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-5 >> User-Agent: Collaborator Enterprise 13.1.13100
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-5 >> Accept-Encoding: gzip,deflate
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 >> "POST /services/json/v1 HTTP/1.1[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 >> "X-Smart-Bear-Build: 13100[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 >> "X-Smart-Bear-Client-GUID: 14b8de642de81c41b321954752a3e158[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 >> "Content-Length: 79[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 >> "Host: dogfood.collabdevteam.net[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 >> "Connection: Keep-Alive[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 >> "User-Agent: Collaborator Enterprise 13.1.13100[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 >> "[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 >> "[{"command":"UserService.findUserByLogin","args":{"login":"oleg.beriashvili"}}]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 << "HTTP/1.1 200 [\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 << "Date: Thu, 25 Feb 2021 14:42:34 GMT[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 << "Content-Length: 246[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 << "Connection: keep-alive[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 << "Set-Cookie: JSESSIONID_COLLAB=1304BA01375FC7EA39639CBD77014A79; Path=/; HttpOnly[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 << "X-Smart-Bear-Not-Logged-In: true[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 << "X-FRAME-OPTIONS: SAMEORIGIN[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 << "[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-5 << "[{"result":{"admin":true,"remoteMapping":{},"remoteSystemAdmin":true,"enabled":true,"fullName":"oleg.beriashvili","id":362,"email":"oleg.beriashvili@smartbear.com","phone":"","login":"oleg.beriashvili","guid":"8e6a8c32ab56ff3dc1c8f3763c0007f5"}}]"
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-5 << HTTP/1.1 200 
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-5 << Date: Thu, 25 Feb 2021 14:42:34 GMT
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-5 << Content-Type: application/json;charset=utf-8
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-5 << Content-Length: 246
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-5 << Connection: keep-alive
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-5 << Set-Cookie: JSESSIONID_COLLAB=1304BA01375FC7EA39639CBD77014A79; Path=/; HttpOnly
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-5 << X-Smart-Bear-Not-Logged-In: true
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-5 << X-FRAME-OPTIONS: SAMEORIGIN
+Feb 25, 2021 5:42:34 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Connection can be kept alive indefinitely
+Feb 25, 2021 5:42:34 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+FINE: Cookie accepted [JSESSIONID_COLLAB="1304BA01375FC7EA39639CBD77014A79", version:0, domain:dogfood.collabdevteam.net, path:/, expiry:null]
+Feb 25, 2021 5:42:34 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection
+FINE: Connection [id: 5][route: {s}->https://dogfood.collabdevteam.net:443] can be kept alive indefinitely
+Feb 25, 2021 5:42:34 PM org.apache.http.impl.conn.DefaultManagedHttpClientConnection setSocketTimeout
+FINE: http-outgoing-5: set socket timeout to 0
+Feb 25, 2021 5:42:34 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection
+FINE: Connection released: [id: 5][route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+Feb 25, 2021 5:42:34 PM com.smartbear.progress.CommandLineProgressMonitor setTaskName
+FINE: Connected as: oleg.beriashvili (oleg.beriashvili)
+Feb 25, 2021 5:42:34 PM com.smartbear.scm requireScm
+FINE: Requiring client configuration for scm system: Git
+Feb 25, 2021 5:42:34 PM com.smartbear.scm requireScm
+FINE: Creating client configuration with options: ScmOptions: {
+   current-directory = (Empty)
+   global-provider = (Empty)
+   scm = (Empty)
+
+   (AccuRev only)
+      accurev-depot = (Empty)
+      accurev-exe = accurev
+      accurev-anc-algorithm = (Empty)
+
+   (ClearCase only)
+      ccrc-server-url = (Empty)
+      ccrc-user = (Empty)
+      ccrc-passwd = (Empty)
+      clearcase-exe = (Empty)
+      clearcase-update-snapshot = false
+      clearcase-view-directory = (Empty)
+
+   (CVS only)
+      cvs-exe = cvs
+      cvsroot = (Empty)
+
+   (Git only)
+      git-exe = (Empty)
+      git-repository = (Empty)
+      git-skip-index = false
+
+   (Mercurial only)
+      mercurial-exe = hg
+
+   (Perforce only)
+      p4 = (Empty)
+      p4port = (Empty)
+      p4user = (Empty)
+      p4passwd = (Empty)
+      p4client = (Empty)
+      p4-ignore-integration-history = false
+      p4-protects-script = (Empty)
+      p4charset = (Empty)
+      p4-require-empty-default-changelist = false
+      p4-change-content-trigger = false
+      p4-specify-command-charset = true
+      p4-test-p4java = false
+
+   (PTC Integrity only)
+      mks-host = (Empty)
+      mks-port = (Empty)
+      mks-user = (Empty)
+      mks-passwd = (Empty)
+      mks-expand-keywords = true
+
+   (Rational Synergy only)
+      ccm-exe = ccm
+      ccm-user = (Empty)
+      ccm-passwd = (Empty)
+      ccm-engine-host = (Empty)
+      ccm-database-path = (Empty)
+      ccm-local-database-path = (Empty)
+      ccm-remote-client = false
+      ccm-server-url = (Empty)
+
+   (Rational Team Concert only)
+      rtc-repository-uri = (Empty)
+      rtc-username = (Empty)
+      rtc-password = (Empty)
+      add-assignments = (Empty)
+      remove-assignments = (Empty)
+      approve-assignments = (Empty)
+      rtc-impl = (Empty)
+
+   (StarTeam only)
+      stcmd-exe = stcmd
+
+   (Subversion only)
+      svn-exe = svn
+      svn-look-exe = (Empty)
+      svn-repo-url = (Empty)
+      svn-user = (Empty)
+      svn-passwd = (Empty)
+      svn-require-client-certificate-password = false
+      svn-auto-add = false
+      svn-recurse-externals = false
+      repo = (Empty)
+      svn-repo-path = (Empty)
+      svn-test-javahl = false
+
+   (Surround SCM only)
+      surround-exe = sscm
+      surround-server = (Empty)
+      surround-single-sign-on = false
+      surround-user = (Empty)
+      surround-passwd = (Empty)
+
+   (Team Foundation Server only)
+      tfs-collection = (Empty)
+      tfs-user = (Empty)
+      tfs-passwd = (Empty)
+
+   (Vault only)
+      vault-profile = (Empty)
+      vault-server = (Empty)
+      vault-repo = (Empty)
+      vault-user = (Empty)
+      vault-passwd = (Empty)
+      vault-proxy-domain = (Empty)
+      vault-proxy-server = (Empty)
+      vault-proxy-port = (Empty)
+      vault-proxy-user = (Empty)
+      vault-proxy-passwd = (Empty)
+      vault-fortress-mode = false
+
+   (Visual SourceSafe only)
+      vss-passwd = (Empty)
+      vss-exe = (Empty)
+      vss-user = (Empty)
+
+}
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.impl.git.GitSystem getClientConfiguration
+FINE: Possible in-repo directory=F:\Work\testgit
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 1 CommandLine: [git, rev-parse, --show-toplevel]
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 1 working directory: null
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 1 env: {}
+Feb 25, 2021 5:42:34 PM com.smartbear.util.PoolThreadFactory newThread
+INFO: Thread CommandRunner-7646139-1 created by thread main
+Feb 25, 2021 5:42:34 PM com.smartbear.util.PoolThreadFactory newThread
+INFO: Thread CommandRunner-7646139-2 created by thread main
+Feb 25, 2021 5:42:34 PM com.smartbear.util.PoolThreadFactory newThread
+INFO: Thread CommandRunner-7646139-3 created by thread main
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 1 contents of stdin:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 1 contents of stdout:
+00000000 463a2f576f726b2f 746573746769740a
+00000010 463a2f576f726b2f 746573746769740a
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 1 contents of stderr:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 1 exit code: 0
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 2 CommandLine: [git, --version]
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 2 working directory: null
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 2 env: {}
+Feb 25, 2021 5:42:34 PM com.smartbear.util.PoolThreadFactory newThread
+INFO: Thread CommandRunner-678801430-1 created by thread main
+Feb 25, 2021 5:42:34 PM com.smartbear.util.PoolThreadFactory newThread
+INFO: Thread CommandRunner-678801430-2 created by thread main
+Feb 25, 2021 5:42:34 PM com.smartbear.util.PoolThreadFactory newThread
+INFO: Thread CommandRunner-678801430-3 created by thread main
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 2 contents of stdin:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 2 contents of stdout:
+00000000 6769742076657273 696f6e20322e3238
+00000010 2e302e77696e646f 77732e310a676974
+00000020 2076657273696f6e 20322e32382e302e
+00000030 77696e646f77732e 310a
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 2 contents of stderr:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 2 exit code: 0
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 3 CommandLine: [git, branch]
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 3 working directory: null
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 3 env: {}
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 3 contents of stdin:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 3 contents of stdout:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 3 contents of stderr:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 3 exit code: 0
+Feb 25, 2021 5:42:34 PM com.smartbear.scm log
+FINE: Client configuration: GIT_DIR=F:\Work\testgit
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 4 CommandLine: [git, config, remote.origin.url]
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 4 working directory: null
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 4 env: {}
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 4 contents of stdin:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 4 contents of stdout:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 4 contents of stderr:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 4 exit code: 1
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.impl.git.GitClientConfiguration getServerConfiguration
+WARNING: Error reading 'remote.origin.url' from config
+com.smartbear.cmdline.ScmCommunicationException: Unexpected non-zero exit code: 1
+	at com.smartbear.scm.cmd.impl.ScmCmds.throwIfNonZeroExitCode(ScmCmds.java:117)
+	at com.smartbear.scm.impl.git.GitConfigCmd.handleExit(GitConfigCmd.java:46)
+	at com.smartbear.scm.cmd.impl.AbstractScmCmdAdapter.handleExit(AbstractScmCmdAdapter.java:61)
+	at com.smartbear.scm.cmd.impl.ScmTextCmdAdapter.handleExit(ScmTextCmdAdapter.java:22)
+	at com.smartbear.scm.cmd.impl.DebugCommandRunner$DebugCmdWrapper.handleExit(DebugCommandRunner.java:273)
+	at com.smartbear.scm.cmd.impl.CommandRunner.run(CommandRunner.java:96)
+	at com.smartbear.scm.cmd.impl.DebugCommandRunner.run(DebugCommandRunner.java:57)
+	at com.smartbear.scm.cmd.impl.AutoDebugCommandRunner.run(AutoDebugCommandRunner.java:46)
+	at com.smartbear.scm.cmd.impl.ScmCmdRunner.run(ScmCmdRunner.java:27)
+	at com.smartbear.scm.impl.git.GitClientConfiguration.runTextCmd(GitClientConfiguration.java:64)
+	at com.smartbear.scm.impl.git.GitClientConfiguration.getServerConfiguration(GitClientConfiguration.java:95)
+	at com.smartbear.ccollab.client.commands.admin.review.JsonProcessor.getScmDiffConnectionParameters(JsonProcessor.java:184)
+	at com.smartbear.ccollab.client.commands.diffs.CommandAddGitDiffs.executeJson(CommandAddGitDiffs.java:122)
+	at com.smartbear.ccollab.client.commands.admin.review.AbstractReviewCommand.executeJson(AbstractReviewCommand.java:109)
+	at com.smartbear.ccollab.client.commands.Command.validateAndExecute(Command.java:360)
+	at com.smartbear.ccollab.CLI.doMain(CLI.java:912)
+	at com.smartbear.ccollab.Main.doMain(Main.java:219)
+	at com.smartbear.ccollab.Main.main(Main.java:167)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:85)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 5 CommandLine: [git, rev-list, --max-parents=0, HEAD, --]
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 5 working directory: null
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 5 env: {}
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 5 contents of stdin:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 5 contents of stdout:
+00000000 3232373130393365 6636303333343837
+00000010 3634666263346232 6662316363663132
+00000020 6639343465373130 0a32323731303933
+00000030 6566363033333438 3736346662633462
+00000040 3266623163636631 3266393434653731
+00000050 300a
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 5 contents of stderr:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 5 exit code: 0
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 6 CommandLine: [git, diff, --raw, --abbrev=40, -M, test, master, --]
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 6 working directory: null
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 6 env: {}
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 6 contents of stdin:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 6 contents of stdout:
+00000000 3a31303036343420 3030303030302065
+00000010 3865343264666636 6561373935386361
+00000020 6439613561306133 6161303237346162
+00000030 6637313230313420 3030303030303030
+00000040 3030303030303030 3030303030303030
+00000050 3030303030303030 3030303030303030
+00000060 2044097465737432 33322e7478740a3a
+00000070 3130303634342030 3030303030206538
+00000080 6534326466663665 6137393538636164
+00000090 3961356130613361 6130323734616266
+000000a0 3731323031342030 3030303030303030
+000000b0 3030303030303030 3030303030303030
+000000c0 3030303030303030 3030303030303020
+000000d0 4409746573743233 322e7478740a
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 6 contents of stderr:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 6 exit code: 0
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 7 CommandLine: [git, config, user.name]
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 7 working directory: null
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 7 env: {}
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 7 contents of stdin:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 7 contents of stdout:
+00000000 4f6c656720426572 6961736876696c69
+00000010 0a4f6c6567204265 726961736876696c
+00000020 690a
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 7 contents of stderr:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 7 exit code: 0
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 8 CommandLine: [git, show, e8e42dff6ea7958cad9a5a0a3aa0274abf712014]
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 8 working directory: null
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 8 env: {}
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 8 contents of stdin:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 8 contents of stdout:
+00000000 76657273696f6e20 68747470733a2f2f
+00000010 6769742d6c66732e 6769746875622e63
+00000020 6f6d2f737065632f 76310a6f69642073
+00000030 68613235363a3833 3731633637346565
+00000040 6237363734326431 6534643062346433
+00000050 6431363333343734 3366366162663363
+00000060 3664643733636438 3662626163326537
+00000070 3061666332310a73 697a6520390a
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debugStream
+FINE: 8 contents of stderr:
+
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.cmd.impl.DebugCommandRunner debug
+FINE: 8 exit code: 0
+Feb 25, 2021 5:42:34 PM com.smartbear.scm.impl.git.GitVersion getBigFileStorageContent
+SEVERE: Unexpected error has occurred while working with Git Large File Storage.
+java.lang.NullPointerException
+	at com.smartbear.scm.impl.git.lfs.GitLFS.prepareData(GitLFS.java:175)
+	at com.smartbear.scm.impl.git.lfs.GitLFS.getBigFileStorageContent(GitLFS.java:216)
+	at com.smartbear.scm.impl.git.GitDiffVersion.getContent(GitDiffVersion.java:89)
+	at com.smartbear.ccollab.datamodel.Scm$2.getContent(Scm.java:590)
+	at com.smartbear.ccollab.datamodel.Scm.addContentToBuilder(Scm.java:615)
+	at com.smartbear.ccollab.datamodel.Scm.prepopulateContentCache(Scm.java:527)
+	at com.smartbear.ccollab.datamodel.Scm.createZipFile(Scm.java:480)
+	at com.smartbear.ccollab.datamodel.Scm.buildChangeset(Scm.java:364)
+	at com.smartbear.ccollab.client.commands.admin.review.JsonProcessor.processChangeset(JsonProcessor.java:70)
+	at com.smartbear.ccollab.client.commands.diffs.CommandAddGitDiffs.doExecute(CommandAddGitDiffs.java:143)
+	at com.smartbear.ccollab.client.commands.diffs.CommandAddGitDiffs.executeJson(CommandAddGitDiffs.java:125)
+	at com.smartbear.ccollab.client.commands.admin.review.AbstractReviewCommand.executeJson(AbstractReviewCommand.java:109)
+	at com.smartbear.ccollab.client.commands.Command.validateAndExecute(Command.java:360)
+	at com.smartbear.ccollab.CLI.doMain(CLI.java:912)
+	at com.smartbear.ccollab.Main.doMain(Main.java:219)
+	at com.smartbear.ccollab.Main.main(Main.java:167)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:85)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+
+Feb 25, 2021 5:42:34 PM com.smartbear.progress.CommandLineProgressMonitor setTaskName
+FINE: Creating changelist
+Feb 25, 2021 5:42:34 PM com.smartbear.ccollab.datamodel.Scm buildChangeset
+INFO: Creating changelist
+Feb 25, 2021 5:42:34 PM com.smartbear.progress.CommandLineProgressMonitor setTaskName
+FINE: Processing test232.txt
+Feb 25, 2021 5:42:34 PM com.smartbear.ccollab.datamodel.Scm buildChangeset
+INFO: Processing test232.txt
+Feb 25, 2021 5:42:34 PM com.smartbear.ccollab.datamodel.Scm buildScmVersion
+FINE: Version built == com.fasterxml.jackson.module.mrbean.generated.com.smartbear.collaborator.json.interfaces.review.materials.PreviousVersionDescriptor@53a5e217  ;  md5 ==e1eb34e1588d5b6f3c32b6601f20dbc8
+Feb 25, 2021 5:42:34 PM com.smartbear.ccollab.datamodel.Scm buildScmVersion
+FINE: Version built == com.fasterxml.jackson.module.mrbean.generated.com.smartbear.collaborator.json.interfaces.review.materials.VersionDescriptor@624a24f6  ;  md5 ==d41d8cd98f00b204e9800998ecf8427e
+Feb 25, 2021 5:42:34 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt
+Feb 25, 2021 5:42:34 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt exists
+Feb 25, 2021 5:42:34 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt can be read
+Feb 25, 2021 5:42:34 PM com.smartbear.beans.ConfigUtils loadRaw
+FINE: Loaded 'loginticketid' = '3cfe195dc8d42665df25217374348090' from config file
+Feb 25, 2021 5:42:34 PM org.apache.http.client.protocol.RequestAddCookies process
+FINE: CookieSpec selected: default
+Feb 25, 2021 5:42:34 PM org.apache.http.client.protocol.RequestAuthCache process
+FINE: Auth cache not set in the context
+Feb 25, 2021 5:42:34 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager requestConnection
+FINE: Connection request: [route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Feb 25, 2021 5:42:34 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager leaseConnection
+FINE: Connection leased: [id: 6][route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Feb 25, 2021 5:42:34 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Opening connection {s}->https://dogfood.collabdevteam.net:443
+Feb 25, 2021 5:42:34 PM org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect
+FINE: Connecting to dogfood.collabdevteam.net/34.236.209.254:443
+Feb 25, 2021 5:42:34 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory connectSocket
+FINE: Connecting socket to dogfood.collabdevteam.net/34.236.209.254:443 with timeout 0
+Feb 25, 2021 5:42:34 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Enabled protocols: [TLSv1.2]
+Feb 25, 2021 5:42:34 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Enabled cipher suites:[TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Feb 25, 2021 5:42:34 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Starting handshake
+Feb 25, 2021 5:42:34 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE: Secure session established
+Feb 25, 2021 5:42:34 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  negotiated protocol: TLSv1.2
+Feb 25, 2021 5:42:34 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+Feb 25, 2021 5:42:34 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  peer principal: CN=*.collabdevteam.net
+Feb 25, 2021 5:42:34 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  peer alternative names: [*.collabdevteam.net, collabdevteam.net]
+Feb 25, 2021 5:42:34 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  issuer principal: CN=Amazon, OU=Server CA 1B, O=Amazon, C=US
+Feb 25, 2021 5:42:34 PM org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect
+FINE: Connection established 192.168.0.123:2369<->34.236.209.254:443
+Feb 25, 2021 5:42:34 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Executing request POST /services/json/v1 HTTP/1.1
+Feb 25, 2021 5:42:34 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Target auth state: UNCHALLENGED
+Feb 25, 2021 5:42:34 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Proxy auth state: UNCHALLENGED
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-6 >> POST /services/json/v1 HTTP/1.1
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-6 >> X-Smart-Bear-Build: 13100
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-6 >> X-Smart-Bear-Client-GUID: 14b8de642de81c41b321954752a3e158
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-6 >> Content-Length: 1904
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-6 >> Content-Type: multipart/form-data; boundary=IJ2qxWinXEcbp-9KsJ2FDLGrBqcYNKMz
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-6 >> Host: dogfood.collabdevteam.net
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-6 >> Connection: Keep-Alive
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-6 >> User-Agent: Collaborator Enterprise 13.1.13100
+Feb 25, 2021 5:42:34 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-6 >> Accept-Encoding: gzip,deflate
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "POST /services/json/v1 HTTP/1.1[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "X-Smart-Bear-Build: 13100[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "X-Smart-Bear-Client-GUID: 14b8de642de81c41b321954752a3e158[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "Content-Length: 1904[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "Content-Type: multipart/form-data; boundary=IJ2qxWinXEcbp-9KsJ2FDLGrBqcYNKMz[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "Host: dogfood.collabdevteam.net[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "User-Agent: Collaborator Enterprise 13.1.13100[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "--IJ2qxWinXEcbp-9KsJ2FDLGrBqcYNKMz[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "Content-Disposition: form-data; name="json"[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "[{"command":"SessionService.setMetadata","args":{"expectedServerVersion":"13100","clientStringId":"json-api-client","clientName":"14b8de642de81c41b321954752a3e158"}},{"command":"SessionService.authenticate","args":{"login":"oleg.beriashvili","ticket":"3cfe195dc8d42665df25217374348090"}},{"command":"ReviewService.addFiles","args":{"changelists":[{"versions":[{"baseVersion":{"md5":"e1eb34e1588d5b6f3c32b6601f20dbc8","scmPath":"test232.txt","source":"CHECKEDIN","scmVersionName":"e8e42dff6ea7958cad9a5a0a3aa0274abf712014","action":"MODIFIED","commitInfo":{"comment":"","hostGuid":"14b8de642de81c41b321954752a3e158","local":false}},"md5":"d41d8cd98f00b204e9800998ecf8427e","scmPath":"test232.txt","source":"CHECKEDIN","scmVersionName":"","action":"DELETED"}],"changelistLog":[],"zipName":"store-11360103427744530461.zip","scmConnectionParameters":[null,"2271093ef603348764fbc4b2fb1ccf12f944e710"],"scmToken":"GIT","commitInfo":{"comment":"Diff Generated By: test master ","date":"2021-02-25T17:42:34+03:00","author":"Oleg Beriashvili","local":true}}]}}]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "--IJ2qxWinXEcbp-9KsJ2FDLGrBqcYNKMz[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "Content-Disposition: form-data; name="debug"[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "false"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "--IJ2qxWinXEcbp-9KsJ2FDLGrBqcYNKMz[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "Content-Disposition: form-data; name="store-11360103427744530461.zip"; filename="store-11360103427744530461.zip"[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "Content-Type: application/octet-stream[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "PK[0x3][0x4][0x14][0x0][0x8][0x8][0x8][0x0]Q[0x8d]YR[0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0] [0x0][0x0][0x0]d41d8cd98f00b204e9800998ecf8427e[0x3][0x0]PK[0x7][0x8][0x0][0x0][0x0][0x0][0x2][0x0][0x0][0x0][0x0][0x0][0x0][0x0]PK[0x3][0x4][0x14][0x0][0x8][0x8][0x8][0x0]Q[0x8d]YR[0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0] [0x0][0x0][0x0]e1eb34e1588d5b6f3c32b6601f20dbc8[\r][0xc5]A[0x12][0xc2] [0xc][0x0][0xc0];[0xaf][0xe0][0x3][0x96]B0[0xd4][0xfe][0x6][0x92] [0xcc][0xa8]tL[0xdb][0x83][0xaf][0xb7]{[0xd9]S[0xbe][0xda][0xc7][0xc7][0xb6]}[0xdf]tu[0xee][0xd9][0xf7][0xdb][0xab][0xea]t[0xdd][0x8e]2[0xd1]x;[0xdd][0x84][0xdc][0xe9][0xcd][0xe8]l[0xb5][0xe5]p[0xc7]u[0x81][0xe4][0x9]S[0x14])[0xe9]*[0xb0][0x97][0xc8]s[0x89][0xc][0xec][0x11] [0xa6][0x8][0x15]s[0xa9]@[0xc8][0x9c][0x80]x[0xc1]R2[0x5]Is[0xae][0x14][0xbc][0xd1][0xfe][0x13][0xfb]0PK[0x7][0x8]@[0xac]5[0x10]l[0x0][0x0][0x0]~[0x0][0x0][0x0]PK[0x1][0x2][0x14][0x0][0x14][0x0][0x8][0x8][0x8][0x0]Q[0x8d]YR[0x0][0x0][0x0][0x0][0x2][0x0][0x0][0x0][0x0][0x0][0x0][0x0] [0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0]d41d8cd98f00b204e9800998ecf8427ePK[0x1][0x2][0x14][0x0][0x14][0x0][0x8][0x8][0x8][0x0]Q[0x8d]YR@[0xac]5[0x10]l[0x0][0x0][0x0]~[0x0][0x0][0x0] [0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0]P[0x0][0x0][0x0]e1eb34e1588d5b6f3c32b6601f20dbc8PK[0x5][0x6][0x0][0x0][0x0][0x0][0x2][0x0][0x2][0x0][0x9c][0x0][0x0][0x0][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "[0x1][0x0][0x0][0x0][0x0]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "[\r][\n]"
+Feb 25, 2021 5:42:34 PM org.apache.http.wire wire
+FINE: http-outgoing-6 >> "--IJ2qxWinXEcbp-9KsJ2FDLGrBqcYNKMz--[\r][\n]"
+Feb 25, 2021 5:42:35 PM org.apache.http.wire wire
+FINE: http-outgoing-6 << "HTTP/1.1 200 [\r][\n]"
+Feb 25, 2021 5:42:35 PM org.apache.http.wire wire
+FINE: http-outgoing-6 << "Date: Thu, 25 Feb 2021 14:42:36 GMT[\r][\n]"
+Feb 25, 2021 5:42:35 PM org.apache.http.wire wire
+FINE: http-outgoing-6 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+Feb 25, 2021 5:42:35 PM org.apache.http.wire wire
+FINE: http-outgoing-6 << "Content-Length: 59[\r][\n]"
+Feb 25, 2021 5:42:35 PM org.apache.http.wire wire
+FINE: http-outgoing-6 << "Connection: keep-alive[\r][\n]"
+Feb 25, 2021 5:42:35 PM org.apache.http.wire wire
+FINE: http-outgoing-6 << "Set-Cookie: JSESSIONID_COLLAB=38989528328C5C89C93A84727D0BE627; Path=/; HttpOnly[\r][\n]"
+Feb 25, 2021 5:42:35 PM org.apache.http.wire wire
+FINE: http-outgoing-6 << "X-Smart-Bear-Not-Logged-In: true[\r][\n]"
+Feb 25, 2021 5:42:35 PM org.apache.http.wire wire
+FINE: http-outgoing-6 << "X-FRAME-OPTIONS: SAMEORIGIN[\r][\n]"
+Feb 25, 2021 5:42:35 PM org.apache.http.wire wire
+FINE: http-outgoing-6 << "[\r][\n]"
+Feb 25, 2021 5:42:35 PM org.apache.http.wire wire
+FINE: http-outgoing-6 << "[{"result":{}},{"result":{}},{"result":{"reviewId":16179}}]"
+Feb 25, 2021 5:42:35 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-6 << HTTP/1.1 200 
+Feb 25, 2021 5:42:35 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-6 << Date: Thu, 25 Feb 2021 14:42:36 GMT
+Feb 25, 2021 5:42:35 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-6 << Content-Type: application/json;charset=utf-8
+Feb 25, 2021 5:42:35 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-6 << Content-Length: 59
+Feb 25, 2021 5:42:35 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-6 << Connection: keep-alive
+Feb 25, 2021 5:42:35 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-6 << Set-Cookie: JSESSIONID_COLLAB=38989528328C5C89C93A84727D0BE627; Path=/; HttpOnly
+Feb 25, 2021 5:42:35 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-6 << X-Smart-Bear-Not-Logged-In: true
+Feb 25, 2021 5:42:35 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-6 << X-FRAME-OPTIONS: SAMEORIGIN
+Feb 25, 2021 5:42:35 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Connection can be kept alive indefinitely
+Feb 25, 2021 5:42:35 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+FINE: Cookie accepted [JSESSIONID_COLLAB="38989528328C5C89C93A84727D0BE627", version:0, domain:dogfood.collabdevteam.net, path:/, expiry:null]
+Feb 25, 2021 5:42:35 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection
+FINE: Connection [id: 6][route: {s}->https://dogfood.collabdevteam.net:443] can be kept alive indefinitely
+Feb 25, 2021 5:42:35 PM org.apache.http.impl.conn.DefaultManagedHttpClientConnection setSocketTimeout
+FINE: http-outgoing-6: set socket timeout to 0
+Feb 25, 2021 5:42:35 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection
+FINE: Connection released: [id: 6][route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+Feb 25, 2021 5:42:35 PM com.smartbear.progress.CommandLineProgressMonitor setTaskName
+FINE: Changes successfully attached to review 16179
+Feb 25, 2021 5:42:35 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt
+Feb 25, 2021 5:42:35 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt exists
+Feb 25, 2021 5:42:35 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt can be read
+Feb 25, 2021 5:42:35 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt
+Feb 25, 2021 5:42:35 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt exists
+Feb 25, 2021 5:42:35 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\olegb\.smartbear\com.smartbear.ccollab.client.txt can be read
+Feb 25, 2021 5:42:35 PM com.smartbear.beans.ConfigUtils loadRaw
+FINE: Loaded 'loginticketid' = '3cfe195dc8d42665df25217374348090' from config file
+Feb 25, 2021 5:42:35 PM org.apache.http.client.protocol.RequestAddCookies process
+FINE: CookieSpec selected: default
+Feb 25, 2021 5:42:35 PM org.apache.http.client.protocol.RequestAuthCache process
+FINE: Auth cache not set in the context
+Feb 25, 2021 5:42:35 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager requestConnection
+FINE: Connection request: [route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Feb 25, 2021 5:42:35 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager leaseConnection
+FINE: Connection leased: [id: 7][route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Feb 25, 2021 5:42:35 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Opening connection {s}->https://dogfood.collabdevteam.net:443
+Feb 25, 2021 5:42:35 PM org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect
+FINE: Connecting to dogfood.collabdevteam.net/34.236.209.254:443
+Feb 25, 2021 5:42:35 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory connectSocket
+FINE: Connecting socket to dogfood.collabdevteam.net/34.236.209.254:443 with timeout 0
+Feb 25, 2021 5:42:35 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Enabled protocols: [TLSv1.2]
+Feb 25, 2021 5:42:35 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Enabled cipher suites:[TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Feb 25, 2021 5:42:35 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory createLayeredSocket
+FINE: Starting handshake
+Feb 25, 2021 5:42:36 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE: Secure session established
+Feb 25, 2021 5:42:36 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  negotiated protocol: TLSv1.2
+Feb 25, 2021 5:42:36 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+Feb 25, 2021 5:42:36 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  peer principal: CN=*.collabdevteam.net
+Feb 25, 2021 5:42:36 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  peer alternative names: [*.collabdevteam.net, collabdevteam.net]
+Feb 25, 2021 5:42:36 PM org.apache.http.conn.ssl.SSLConnectionSocketFactory verifyHostname
+FINE:  issuer principal: CN=Amazon, OU=Server CA 1B, O=Amazon, C=US
+Feb 25, 2021 5:42:36 PM org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect
+FINE: Connection established 192.168.0.123:2370<->34.236.209.254:443
+Feb 25, 2021 5:42:36 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Executing request POST /services/json/v1 HTTP/1.1
+Feb 25, 2021 5:42:36 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Target auth state: UNCHALLENGED
+Feb 25, 2021 5:42:36 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Proxy auth state: UNCHALLENGED
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-7 >> POST /services/json/v1 HTTP/1.1
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-7 >> X-Smart-Bear-Build: 13100
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-7 >> X-Smart-Bear-Client-GUID: 14b8de642de81c41b321954752a3e158
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-7 >> Content-Length: 357
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-7 >> Content-Type: application/json; charset=UTF-8
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-7 >> Host: dogfood.collabdevteam.net
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-7 >> Connection: Keep-Alive
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-7 >> User-Agent: Collaborator Enterprise 13.1.13100
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onRequestSubmitted
+FINE: http-outgoing-7 >> Accept-Encoding: gzip,deflate
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 >> "POST /services/json/v1 HTTP/1.1[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 >> "X-Smart-Bear-Build: 13100[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 >> "X-Smart-Bear-Client-GUID: 14b8de642de81c41b321954752a3e158[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 >> "Content-Length: 357[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 >> "Host: dogfood.collabdevteam.net[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 >> "Connection: Keep-Alive[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 >> "User-Agent: Collaborator Enterprise 13.1.13100[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 >> "[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 >> "[{"command":"SessionService.setMetadata","args":{"expectedServerVersion":"13100","clientStringId":"json-api-client","clientName":"14b8de642de81c41b321954752a3e158"}},{"command":"SessionService.authenticate","args":{"login":"oleg.beriashvili","ticket":"3cfe195dc8d42665df25217374348090"}},{"command":"ReviewService.findReviewById","args":{"reviewId":16179}}]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 << "HTTP/1.1 200 [\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 << "Date: Thu, 25 Feb 2021 14:42:36 GMT[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 << "Content-Length: 692[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 << "Connection: keep-alive[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 << "Set-Cookie: JSESSIONID_COLLAB=59CD6B22BD2EFD86E783C113D3C56FF4; Path=/; HttpOnly[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 << "X-Smart-Bear-Not-Logged-In: true[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 << "X-FRAME-OPTIONS: SAMEORIGIN[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 << "[\r][\n]"
+Feb 25, 2021 5:42:36 PM org.apache.http.wire wire
+FINE: http-outgoing-7 << "[{"result":{}},{"result":{}},{"result":{"creationDate":"2021-02-25T14:42:36Z","lastActivity":"2021-02-25T14:42:36Z","reviewPhase":"PLANNING","displayText":"Review #16179: \"Untitled Review\"","title":"Untitled Review","groupGuid":"e76d3b8f8b32be820101e064620fdce8","templateName":"Maintenance Workflow","accessPolicy":"ANYONE","customFields":[{"name":"Artifact Links","value":["(waiting for initial result)"]},{"name":"Demo Environment","value":["(waiting for initial result)"]},{"name":"Overview","value":[""]}],"internalCustomFields":[{"name":"JiraIssueId","value":[""]},{"name":"ExternalTaskId","value":[""]}],"checklistItemCustomFields":[{"name":"Notes","value":[""]}],"reviewId":16179}}]"
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-7 << HTTP/1.1 200 
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-7 << Date: Thu, 25 Feb 2021 14:42:36 GMT
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-7 << Content-Type: application/json;charset=utf-8
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-7 << Content-Length: 692
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-7 << Connection: keep-alive
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-7 << Set-Cookie: JSESSIONID_COLLAB=59CD6B22BD2EFD86E783C113D3C56FF4; Path=/; HttpOnly
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-7 << X-Smart-Bear-Not-Logged-In: true
+Feb 25, 2021 5:42:36 PM org.apache.http.headers onResponseReceived
+FINE: http-outgoing-7 << X-FRAME-OPTIONS: SAMEORIGIN
+Feb 25, 2021 5:42:36 PM org.apache.http.impl.execchain.MainClientExec execute
+FINE: Connection can be kept alive indefinitely
+Feb 25, 2021 5:42:36 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+FINE: Cookie accepted [JSESSIONID_COLLAB="59CD6B22BD2EFD86E783C113D3C56FF4", version:0, domain:dogfood.collabdevteam.net, path:/, expiry:null]
+Feb 25, 2021 5:42:36 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection
+FINE: Connection [id: 7][route: {s}->https://dogfood.collabdevteam.net:443] can be kept alive indefinitely
+Feb 25, 2021 5:42:36 PM org.apache.http.impl.conn.DefaultManagedHttpClientConnection setSocketTimeout
+FINE: http-outgoing-7: set socket timeout to 0
+Feb 25, 2021 5:42:36 PM org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection
+FINE: Connection released: [id: 7][route: {s}->https://dogfood.collabdevteam.net:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+Feb 25, 2021 5:42:36 PM sun.awt.windows.WToolkit <clinit>
+FINE: Win version: 0x4a61000a = 1247870986 (Windows Vista)
